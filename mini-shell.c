@@ -67,7 +67,7 @@ int main(){
 
         trim(command);
       
-        if ("%d", strcmp(command, "pwd") == 0){
+        if (strcmp(command, "pwd") == 0){
             
             char cwd[50];
             if (getcwd(cwd, sizeof(cwd)) != NULL) {
@@ -81,7 +81,7 @@ int main(){
             }
         }
         
-        else if("%d", strcmp(command, "list") == 0){
+        else if(strcmp(command, "list") == 0){
             
             DIR *d;    
             struct dirent *dir;
