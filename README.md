@@ -1,6 +1,6 @@
 # Mini Shell – C Project
 
-A *feature-rich*, interactive command-line shell written in C, designed for file and directory management, process execution, and system inspection. Built from scratch (with extensive research and experimentation) by a self-taught programmer six weeks into coding.
+A *feature-rich*, interactive command-line shell written in C, designed for file and directory management, process execution, and system inspection. Built from scratch (with extensive research and experimentation) by a self-taught programmer.
 
 # Features
 
@@ -28,7 +28,7 @@ Clear terminal screen with the clear command, exit the shell with exit command.
 
 ## Note
 
-Some commands such as copying will sometimes require root priviligies due to file permissions.
+Some commands such as copying will sometimes require root privileges due to file permissions.
 
 | Command                      | Description                                     |
 | -----------------------------| ----------------------------------------------- |
