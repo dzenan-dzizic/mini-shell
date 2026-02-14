@@ -1,32 +1,32 @@
-## Mini Shell – C Project
+# Mini Shell – C Project
 
 A *feature-rich*, interactive command-line shell written in C, designed for file and directory management, process execution, and system inspection. Built from scratch (with extensive research and experimentation) by a self-taught programmer six weeks into coding.
 
-## Features
+# Features
 
-# File Operations
+## File Operations
 -Create, delete, copy, move, and rename files.
 
 --Directory Operations
 -Create, delete, rename, and list directories and their contents.
 
-# Process Management
+## Process Management
 
 -Run arbitrary system commands using fork() and execvp().
 -You can launch another program.
 
-# System Utilities
+## System Utilities
 
 -Display current working directory (pwd), uptime, and local time.
 
-# Interactive CLI
+## Interactive CLI
 
 Custom command prompt (mini-shell>), input trimming, and argument parsing.
 
-# Screen Management
+## Screen Management
 Clear terminal screen with the clear command, exit the shell with exit command.
 
-# Note
+## Note
 
 Some commands such as copying will sometimes require root priviligies due to file permissions.
 
