@@ -9,7 +9,6 @@
 #include <stdlib.h>
 #include <dirent.h>
 #include <stddef.h>
-#include <string.h>
 #include <sys/wait.h>
 
 #define RED   "\033[31m"
